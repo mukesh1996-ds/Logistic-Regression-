@@ -3,10 +3,10 @@
 This is the task in Machine Learning.
 
 ```
-# Data set 
+# Problem statement 
 
 ```
-The dataset I chose is the affairs dataset that comes with Statsmodels. It was derived from a survey of women in 1974 by Redbookc magazine, in which married women were asked about their participation in extramarital affairs. More information about the study is available in a 1978 paper from the Journal of Political Economy.
+The dataset I chose is the affairs dataset that comes with Stats models. It was derived from a survey of women in 1974 by Red book magazine, in which married women were asked about their participation in extramarital affairs.I decided to treat this as a classification problem by creating a new binary variable affair (did the woman have at least one affair?) and trying to predict the classification for each woman.Variables that is present in the dataset for prediction are :-rate_marriage(women’s rating for her marriage) ,age(women’s age),yrs_married(number of years married), children(no. of children she has),religious(on the scale of 1 -5 whether she believe in religion or not),education(level of education), occupation ,occupation of husband, affairs
 
 ```
 # Description of variables
