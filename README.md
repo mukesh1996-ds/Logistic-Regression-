@@ -23,13 +23,9 @@ import pandas as pd
 import statsmodels.api as sm
 import matplotlib.pyplot as plt
 from patsy import dmatrices
-from sklearn.linear_model
-import LogisticRegression from
-sklearn.cross_validation
-import train_test_split from sklearn
-import metrics from
-sklearn.cross_validation
-import cross_val_score dta =
-sm.datasets.fair.load_pandas().data
+from sklearn.linear_model import LogisticRegression 
+from sklearn.model_selection import train_test_split
+import metrics from sklearn.cross_validation
+import cross_val_score dta = sm.datasets.fair.load_pandas().data
 
 ```
