@@ -3,3 +3,5 @@ numpy
 sklearn
 matplotlib
 statsmodels
+seaborn
+flask

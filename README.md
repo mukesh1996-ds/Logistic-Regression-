@@ -29,3 +29,20 @@ import metrics from sklearn.cross_validation
 import cross_val_score dta = sm.datasets.fair.load_pandas().data
 
 ```
+
+# Data preprocessing
+```
+We want to make it classification problem for that we need to convert target variable (affairs) into binary class where if the value will be 0 then women had no any affair and 1 means women had been involved in several extra marital affairs.
+
+Here we will use pasty.dmatrices, it’s main task is to analyze the independent variable and dependent variable and add some data if it is needed based on target variable.
+
+```
+# Local execution 
+```
+flask 
+
+```
+# URL
+```
+Running on http://127.0.0.1:5000/
+```
